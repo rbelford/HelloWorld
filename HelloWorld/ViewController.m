@@ -14,6 +14,9 @@
 
 @implementation ViewController
 
+- (IBAction)hello:(id)sender {
+    helloLabel.text = @"Hello World!";
+}
 - (void)viewDidLoad
 {
     [super viewDidLoad];
